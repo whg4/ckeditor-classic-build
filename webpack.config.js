@@ -4,6 +4,7 @@
 
 const path = require('path');
 const { styles, loaders } = require('@ckeditor/ckeditor5-dev-utils');
+const webpack = require('webpack');
 
 module.exports = {
 	devtool: 'source-map',
@@ -24,7 +25,7 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /ckeditor5-[^/\\]+[/\\]theme[/\\]icons[/\\][^/\\]+\.svg$/,
+				test: /\.svg$/,
 
 				use: ['raw-loader']
 			},
@@ -58,6 +59,25 @@ module.exports = {
 			loaders.getTypeScriptLoader()
 		]
 	},
+
+	plugins: [
+		new webpack.NormalModuleReplacementPlugin(
+			/bold\.svg/,
+			path.join(__dirname, './icons/rtf_b.svg')
+		),
+		new webpack.NormalModuleReplacementPlugin(
+			/image\.svg/,
+			path.join(__dirname, './icons/rtf_image.svg')
+		),
+		new webpack.NormalModuleReplacementPlugin(
+			/font-size\.svg/,
+			path.join(__dirname, './icons/rtf_t.svg')
+		),
+		new webpack.NormalModuleReplacementPlugin(
+			/paragraph\.svg/,
+			path.join(__dirname, './icons/rtf_h.svg')
+		),
+	],
 
 	// Useful for debugging.
 	devtool: 'source-map',

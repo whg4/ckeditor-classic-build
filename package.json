@@ -36,8 +36,10 @@
     "@ckeditor/ckeditor5-typing": "^38.1.0"
   },
   "devDependencies": {
-    "esbuild-loader": "^3.0.1",
+    "@ckeditor/ckeditor5-core": "^38.1.0",
+    "@ckeditor/ckeditor5-ui": "^38.1.0",
     "css-loader": "^5.2.7",
+    "esbuild-loader": "^3.0.1",
     "postcss-loader": "^4.3.0",
     "raw-loader": "^4.0.2",
     "style-loader": "^2.0.0",
