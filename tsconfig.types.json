@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"ES2019",
+			"DOM",
+			"DOM.Iterable"
+		],
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"declarationDir": "build",
+		"stripInternal": true
+	},
+	"include": [
+		"src",
+	]
+}
