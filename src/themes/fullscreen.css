@@ -1,0 +1,21 @@
+#fullscreenoverlay {
+	overflow: hidden;
+}
+
+#fullscreenoverlay .ck.ck-editor {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+}
+
+#fullscreenoverlay .ck.ck-content,
+#fullscreenoverlay .ck.ck-editor__main {
+	height: 100%;
+}
+
+.ck.ck-toolbar>.ck-toolbar__items>.ck:last-child {
+	margin-left: auto;
+}

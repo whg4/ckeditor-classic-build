@@ -11,6 +11,7 @@
 		"stripInternal": true
 	},
 	"include": [
-		"src",
+		"src/**/*.ts",
+		"index.d.ts"
 	]
 }

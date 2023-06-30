@@ -26,6 +26,7 @@ import { Table, TableToolbar } from '@ckeditor/ckeditor5-table';
 import { TextTransformation } from '@ckeditor/ckeditor5-typing';
 import { CloudServices } from '@ckeditor/ckeditor5-cloud-services';
 import { FontSize } from '@ckeditor/ckeditor5-font';
+import FullScreen from './plugins/fullscreen';
 
 export default class ClassicEditor extends ClassicEditorBase {
 	public static override builtinPlugins = [
@@ -55,16 +56,18 @@ export default class ClassicEditor extends ClassicEditorBase {
 		Table,
 		TableToolbar,
 		TextTransformation,
-		FontSize
+		FontSize,
+		FullScreen,
 	];
 
 	public static override defaultConfig = {
 		toolbar: {
 			items: [
 				'FontSize',
-				'heading',
-				'Bold', 
-				'uploadImage'
+				'Bold',
+				'heading', 
+				'uploadImage', 
+				'FullScreen'
 			]
 		},
 		image: {

@@ -1,14 +1,15 @@
 {
   "name": "stary-classic-editor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
+  "github": "https://github.com/whg4/ckeditor-classic-build.git",
+  "author": "whg4",
   "scripts": {
     "postbuild": "tsc -p ./tsconfig.types.json",
-    "build": "webpack --mode development"
+    "build": "webpack --mode production"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^38.1.0",
@@ -43,6 +44,7 @@
     "postcss-loader": "^4.3.0",
     "raw-loader": "^4.0.2",
     "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.3.9",
     "typescript": "^5.1.6",
     "webpack": "^5.88.1",
     "webpack-cli": "^4.10.0"

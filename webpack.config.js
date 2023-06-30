@@ -4,7 +4,9 @@
 
 const path = require('path');
 const { styles, loaders } = require('@ckeditor/ckeditor5-dev-utils');
-const webpack = require('webpack');
+
+const TerserPlugin = require('terser-webpack-plugin');
+
 
 module.exports = {
 	devtool: 'source-map',
@@ -22,6 +24,10 @@ module.exports = {
 		libraryExport: 'default'
 	},
 
+	resolve: {
+		extensions: ['.ts', '.js'],
+	},
+
 	module: {
 		rules: [
 			{
@@ -30,7 +36,7 @@ module.exports = {
 				use: ['raw-loader']
 			},
 			{
-				test: /ckeditor5-[^/\\]+[/\\]theme[/\\].+\.css$/,
+				test: /\.css$/,
 
 				use: [
 					{
@@ -60,24 +66,13 @@ module.exports = {
 		]
 	},
 
-	plugins: [
-		new webpack.NormalModuleReplacementPlugin(
-			/bold\.svg/,
-			path.join(__dirname, './icons/rtf_b.svg')
-		),
-		new webpack.NormalModuleReplacementPlugin(
-			/image\.svg/,
-			path.join(__dirname, './icons/rtf_image.svg')
-		),
-		new webpack.NormalModuleReplacementPlugin(
-			/font-size\.svg/,
-			path.join(__dirname, './icons/rtf_t.svg')
-		),
-		new webpack.NormalModuleReplacementPlugin(
-			/paragraph\.svg/,
-			path.join(__dirname, './icons/rtf_h.svg')
-		),
-	],
+	optimization: {
+		minimizer: [
+			new TerserPlugin({
+				extractComments: false
+			})
+		]
+	},
 
 	// Useful for debugging.
 	devtool: 'source-map',
