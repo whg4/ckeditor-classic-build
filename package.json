@@ -1,6 +1,6 @@
 {
   "name": "stary-classic-editor",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",

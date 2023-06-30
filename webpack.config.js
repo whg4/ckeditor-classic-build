@@ -7,7 +7,9 @@ const { styles, loaders } = require('@ckeditor/ckeditor5-dev-utils');
 
 const TerserPlugin = require('terser-webpack-plugin');
 
-const { CKEditorTranslationsPlugin } = require( '@ckeditor/ckeditor5-dev-translations' );
+const webpack = require('webpack');
+
+const { CKEditorTranslationsPlugin } = require('@ckeditor/ckeditor5-dev-translations');
 
 
 module.exports = {
@@ -69,12 +71,29 @@ module.exports = {
 	},
 
 	plugins: [
-		new CKEditorTranslationsPlugin( {
+		new CKEditorTranslationsPlugin({
 			// UI language. Language codes follow the https://en.wikipedia.org/wiki/ISO_639-1 format.
 			// When changing the built-in language, remember to also change it in the editor's configuration (src/ckeditor.js).
-			language: 'zh',
-			additionalLanguages: ['en', 'vi']
-		} ),
+			language: 'en',
+			additionalLanguages: ['zh', 'vi']
+		}),
+		new webpack.NormalModuleReplacementPlugin(
+			/bold\.svg/,
+			path.join(__dirname, './src/themes/icons/rtf_b.svg')
+		),
+		new webpack.NormalModuleReplacementPlugin(
+			/image\.svg/,
+			path.join(__dirname, './src/themes/icons/rtf_image.svg')
+		),
+		new webpack.NormalModuleReplacementPlugin(
+			/font-size\.svg/,
+			path.join(__dirname, './src/themes/icons/rtf_t.svg')
+		),
+		// dropdown-arrow.svg
+		new webpack.NormalModuleReplacementPlugin(
+			/dropdown-arrow\.svg/,
+			path.join(__dirname, './src/themes/icons/caret_under.svg')
+		),
 	],
 
 	optimization: {

@@ -11,10 +11,14 @@
 	</div>
 
 	<script src="build/ckeditor.js"></script>
+	<script src="build/translations/vi.js"></script>
+	<script src="build/translations/zh.js"></script>
 
 	<script>
 		console.log('Hello from the custom build!', ClassicEditor.create)
-		ClassicEditor.create(document.querySelector('#editor'), {})
+		ClassicEditor.create(document.querySelector('#editor'), {
+			language: 'zh'
+		})
 
 	</script>
 	
