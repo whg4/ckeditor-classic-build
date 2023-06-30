@@ -7,6 +7,8 @@ const { styles, loaders } = require('@ckeditor/ckeditor5-dev-utils');
 
 const TerserPlugin = require('terser-webpack-plugin');
 
+const { CKEditorTranslationsPlugin } = require( '@ckeditor/ckeditor5-dev-translations' );
+
 
 module.exports = {
 	devtool: 'source-map',
@@ -65,6 +67,15 @@ module.exports = {
 			loaders.getTypeScriptLoader()
 		]
 	},
+
+	plugins: [
+		new CKEditorTranslationsPlugin( {
+			// UI language. Language codes follow the https://en.wikipedia.org/wiki/ISO_639-1 format.
+			// When changing the built-in language, remember to also change it in the editor's configuration (src/ckeditor.js).
+			language: 'zh',
+			additionalLanguages: ['en', 'vi']
+		} ),
+	],
 
 	optimization: {
 		minimizer: [
