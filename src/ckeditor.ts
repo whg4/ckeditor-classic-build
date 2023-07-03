@@ -61,11 +61,22 @@ export default class ClassicEditor extends ClassicEditorBase {
 	];
 
 	public static override defaultConfig = {
+		fontSize: {
+			options: [
+				'12px',
+				'13px',
+				'14px',
+				'16px',
+				'18px',
+				'20px',
+			]
+		},
 		toolbar: {
 			items: [
+				'Bold',
 				'heading',
 				'FontSize',
-				'Bold',
+				'|',
 				'uploadImage',
 				'FullScreen'
 			]
@@ -81,11 +92,7 @@ export default class ClassicEditor extends ClassicEditorBase {
 			]
 		},
 		table: {
-			contentToolbar: [
-				'tableColumn',
-				'tableRow',
-				'mergeTableCells'
-			]
+			contentToolbar: []
 		},
 		// This value must be kept in sync with the language defined in webpack.config.js.
 		language: 'en'
