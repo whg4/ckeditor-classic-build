@@ -1,6 +1,6 @@
 {
   "name": "stary-classic-editor",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "",
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
@@ -31,10 +31,11 @@
     "@ckeditor/ckeditor5-list": "^38.1.0",
     "@ckeditor/ckeditor5-media-embed": "^38.1.0",
     "@ckeditor/ckeditor5-paragraph": "^38.1.0",
-    "@ckeditor/ckeditor5-paste-from-office": "^38.1.0",
     "@ckeditor/ckeditor5-table": "^38.1.0",
     "@ckeditor/ckeditor5-theme-lark": "^38.1.0",
-    "@ckeditor/ckeditor5-typing": "^38.1.0"
+    "@ckeditor/ckeditor5-typing": "^38.1.0",
+    "@ckeditor/ckeditor5-utils": "^38.1.0",
+    "@ckeditor/stary-ckeditor5-paste-from-office": "38.1.0"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^38.1.0",

@@ -58,9 +58,6 @@ dependencies:
   '@ckeditor/ckeditor5-paragraph':
     specifier: ^38.1.0
     version: 38.1.0
-  '@ckeditor/ckeditor5-paste-from-office':
-    specifier: ^38.1.0
-    version: 38.1.0
   '@ckeditor/ckeditor5-table':
     specifier: ^38.1.0
     version: 38.1.0
@@ -69,6 +66,12 @@ dependencies:
     version: 38.1.0
   '@ckeditor/ckeditor5-typing':
     specifier: ^38.1.0
+    version: 38.1.0
+  '@ckeditor/ckeditor5-utils':
+    specifier: ^38.1.0
+    version: 38.1.0
+  '@ckeditor/stary-ckeditor5-paste-from-office':
+    specifier: 38.1.0
     version: 38.1.0
 
 devDependencies:
@@ -118,7 +121,7 @@ packages:
       '@babel/highlight': 7.22.5
 
   /@babel/generator@7.22.5:
-    resolution: {integrity: sha512-+lcUbnTRhd0jOewtFSedLyiPsD5tswKkbgcezOqqWFUVNEwoUTlpPOBmvhG7OXWLR4jMdv0czPGH5XbflnD1EA==, tarball: http://npm.stary.ltd:80/@babel%2fgenerator/-/generator-7.22.5.tgz}
+    resolution: {integrity: sha512-+lcUbnTRhd0jOewtFSedLyiPsD5tswKkbgcezOqqWFUVNEwoUTlpPOBmvhG7OXWLR4jMdv0czPGH5XbflnD1EA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.22.5
@@ -127,30 +130,30 @@ packages:
       jsesc: 2.5.2
 
   /@babel/helper-environment-visitor@7.22.5:
-    resolution: {integrity: sha512-XGmhECfVA/5sAt+H+xpSg0mfrHq6FzNr9Oxh7PSEBBRUb/mL7Kz3NICXb194rCqAEdxkhPT1a88teizAFyvk8Q==, tarball: http://npm.stary.ltd:80/@babel%2fhelper-environment-visitor/-/helper-environment-visitor-7.22.5.tgz}
+    resolution: {integrity: sha512-XGmhECfVA/5sAt+H+xpSg0mfrHq6FzNr9Oxh7PSEBBRUb/mL7Kz3NICXb194rCqAEdxkhPT1a88teizAFyvk8Q==}
     engines: {node: '>=6.9.0'}
 
   /@babel/helper-function-name@7.22.5:
-    resolution: {integrity: sha512-wtHSq6jMRE3uF2otvfuD3DIvVhOsSNshQl0Qrd7qC9oQJzHvOL4qQXlQn2916+CXGywIjpGuIkoyZRRxHPiNQQ==, tarball: http://npm.stary.ltd:80/@babel%2fhelper-function-name/-/helper-function-name-7.22.5.tgz}
+    resolution: {integrity: sha512-wtHSq6jMRE3uF2otvfuD3DIvVhOsSNshQl0Qrd7qC9oQJzHvOL4qQXlQn2916+CXGywIjpGuIkoyZRRxHPiNQQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/template': 7.22.5
       '@babel/types': 7.22.5
 
   /@babel/helper-hoist-variables@7.22.5:
-    resolution: {integrity: sha512-wGjk9QZVzvknA6yKIUURb8zY3grXCcOZt+/7Wcy8O2uctxhplmUPkOdlgoNhmdVee2c92JXbf1xpMtVNbfoxRw==, tarball: http://npm.stary.ltd:80/@babel%2fhelper-hoist-variables/-/helper-hoist-variables-7.22.5.tgz}
+    resolution: {integrity: sha512-wGjk9QZVzvknA6yKIUURb8zY3grXCcOZt+/7Wcy8O2uctxhplmUPkOdlgoNhmdVee2c92JXbf1xpMtVNbfoxRw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.22.5
 
   /@babel/helper-split-export-declaration@7.22.5:
-    resolution: {integrity: sha512-thqK5QFghPKWLhAV321lxF95yCg2K3Ob5yw+M3VHWfdia0IkPXUtoLH8x/6Fh486QUvzhb8YOWHChTVen2/PoQ==, tarball: http://npm.stary.ltd:80/@babel%2fhelper-split-export-declaration/-/helper-split-export-declaration-7.22.5.tgz}
+    resolution: {integrity: sha512-thqK5QFghPKWLhAV321lxF95yCg2K3Ob5yw+M3VHWfdia0IkPXUtoLH8x/6Fh486QUvzhb8YOWHChTVen2/PoQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.22.5
 
   /@babel/helper-string-parser@7.22.5:
-    resolution: {integrity: sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==, tarball: http://npm.stary.ltd:80/@babel%2fhelper-string-parser/-/helper-string-parser-7.22.5.tgz}
+    resolution: {integrity: sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==}
     engines: {node: '>=6.9.0'}
 
   /@babel/helper-validator-identifier@7.22.5:
@@ -166,14 +169,14 @@ packages:
       js-tokens: 4.0.0
 
   /@babel/parser@7.22.5:
-    resolution: {integrity: sha512-DFZMC9LJUG9PLOclRC32G63UXwzqS2koQC8dkx+PLdmt1xSePYpbT/NbsrJy8Q/muXz7o/h/d4A7Fuyixm559Q==, tarball: http://npm.stary.ltd:80/@babel%2fparser/-/parser-7.22.5.tgz}
+    resolution: {integrity: sha512-DFZMC9LJUG9PLOclRC32G63UXwzqS2koQC8dkx+PLdmt1xSePYpbT/NbsrJy8Q/muXz7o/h/d4A7Fuyixm559Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
       '@babel/types': 7.22.5
 
   /@babel/template@7.22.5:
-    resolution: {integrity: sha512-X7yV7eiwAxdj9k94NEylvbVHLiVG1nvzCV2EAowhxLTwODV1jl9UzZ48leOC0sH7OnuHrIkllaBgneUykIcZaw==, tarball: http://npm.stary.ltd:80/@babel%2ftemplate/-/template-7.22.5.tgz}
+    resolution: {integrity: sha512-X7yV7eiwAxdj9k94NEylvbVHLiVG1nvzCV2EAowhxLTwODV1jl9UzZ48leOC0sH7OnuHrIkllaBgneUykIcZaw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.22.5
@@ -181,7 +184,7 @@ packages:
       '@babel/types': 7.22.5
 
   /@babel/traverse@7.22.5:
-    resolution: {integrity: sha512-7DuIjPgERaNo6r+PZwItpjCZEa5vyw4eJGufeLxrPdBXBoLcCJCIasvK6pK/9DVNrLZTLFhUGqaC6X/PA007TQ==, tarball: http://npm.stary.ltd:80/@babel%2ftraverse/-/traverse-7.22.5.tgz}
+    resolution: {integrity: sha512-7DuIjPgERaNo6r+PZwItpjCZEa5vyw4eJGufeLxrPdBXBoLcCJCIasvK6pK/9DVNrLZTLFhUGqaC6X/PA007TQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.22.5
@@ -198,7 +201,7 @@ packages:
       - supports-color
 
   /@babel/types@7.22.5:
-    resolution: {integrity: sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==, tarball: http://npm.stary.ltd:80/@babel%2ftypes/-/types-7.22.5.tgz}
+    resolution: {integrity: sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.22.5
@@ -275,7 +278,7 @@ packages:
       lodash-es: 4.17.21
 
   /@ckeditor/ckeditor5-dev-translations@38.0.3:
-    resolution: {integrity: sha512-lc1Zitgmq6ZPajLhEcYuyYWegpqxu+3QYHe7IlksGU1EgcEAAuPK4r5EY5a/QrrDOptfo1AOTBZ+c0BqckwiMA==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-dev-translations/-/ckeditor5-dev-translations-38.0.3.tgz}
+    resolution: {integrity: sha512-lc1Zitgmq6ZPajLhEcYuyYWegpqxu+3QYHe7IlksGU1EgcEAAuPK4r5EY5a/QrrDOptfo1AOTBZ+c0BqckwiMA==}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@babel/parser': 7.22.5
@@ -422,13 +425,6 @@ packages:
       '@ckeditor/ckeditor5-utils': 38.1.0
     dev: false
 
-  /@ckeditor/ckeditor5-paste-from-office@38.1.0:
-    resolution: {integrity: sha512-RYZiCyRvCEqlLymAmW7OWVWRb0bkCuU2gWKiv/jhvgP58ZoGWDszVgAXJEcGJqCaJ2Q6mL7AVu4sdTDshTUk2A==}
-    engines: {node: '>=16.0.0', npm: '>=5.7.1'}
-    dependencies:
-      ckeditor5: 38.1.0
-    dev: false
-
   /@ckeditor/ckeditor5-select-all@38.1.0:
     resolution: {integrity: sha512-04QCaVepM86iLSnQANMG6BAt0zW248So2vo5dOhSEvCoj6HlOtfxOSdwLykiLMYaKUucxhDtvboHEexshcQ34w==}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
@@ -516,6 +512,13 @@ packages:
       '@ckeditor/ckeditor5-ui': 38.1.0
       '@ckeditor/ckeditor5-utils': 38.1.0
       lodash-es: 4.17.21
+    dev: false
+
+  /@ckeditor/stary-ckeditor5-paste-from-office@38.1.0:
+    resolution: {integrity: sha512-+BEMBNhJ1vTIRnLBeIlmgztsKowzsUvA87s9p5xmHO5Lozgz6UbcL2nz16GRMyn4sdVXwMxND5aourewsd0TOA==}
+    engines: {node: '>=16.0.0', npm: '>=5.7.1'}
+    dependencies:
+      ckeditor5: 38.1.0
     dev: false
 
   /@csstools/selector-specificity@2.2.0(postcss-selector-parser@6.0.13):
@@ -1112,7 +1115,7 @@ packages:
     resolution: {integrity: sha512-2uDDk+TRiTX5hMcUYT/7CSyzMZxjfGu0vAUjS2g0LSD8UoXOv0LtpH4LxGMemsiPq6LCVIUjNwVM0erkOkGCDA==}
 
   /chalk@2.4.2:
-    resolution: {integrity: sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=, tarball: http://npm.stary.ltd:80/chalk/-/chalk-2.4.2.tgz}
+    resolution: {integrity: sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=}
     engines: {node: '>=4'}
     dependencies:
       ansi-styles: 3.2.1
@@ -1128,7 +1131,7 @@ packages:
     dev: false
 
   /chalk@4.1.2:
-    resolution: {integrity: sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=, tarball: http://npm.stary.ltd:80/chalk/-/chalk-4.1.2.tgz}
+    resolution: {integrity: sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=}
     engines: {node: '>=10'}
     dependencies:
       ansi-styles: 4.3.0
@@ -1370,7 +1373,7 @@ packages:
     dev: false
 
   /debug@4.3.4:
-    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, tarball: http://npm.stary.ltd:80/debug/-/debug-4.3.4.tgz}
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1630,7 +1633,7 @@ packages:
       path-is-absolute: 1.0.1
 
   /globals@11.12.0:
-    resolution: {integrity: sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=, tarball: http://npm.stary.ltd:80/globals/-/globals-11.12.0.tgz}
+    resolution: {integrity: sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=}
     engines: {node: '>=4'}
 
   /globby@10.0.2:
@@ -1802,7 +1805,7 @@ packages:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
   /jsesc@2.5.2:
-    resolution: {integrity: sha1-gFZNLkg9rPbo7yCWUKZ98/DCg6Q=, tarball: http://npm.stary.ltd:80/jsesc/-/jsesc-2.5.2.tgz}
+    resolution: {integrity: sha1-gFZNLkg9rPbo7yCWUKZ98/DCg6Q=}
     engines: {node: '>=4'}
     hasBin: true
 
@@ -1983,7 +1986,7 @@ packages:
     dev: false
 
   /ms@2.1.2:
-    resolution: {integrity: sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=, tarball: http://npm.stary.ltd:80/ms/-/ms-2.1.2.tgz}
+    resolution: {integrity: sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=}
 
   /nanoid@3.3.6:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
@@ -2110,7 +2113,7 @@ packages:
       find-up: 4.1.0
 
   /pofile@1.1.4:
-    resolution: {integrity: sha512-r6Q21sKsY1AjTVVjOuU02VYKVNQGJNQHjTIvs4dEbeuuYfxgYk/DGD2mqqq4RDaVkwdSq0VEtmQUOPe/wH8X3g==, tarball: http://npm.stary.ltd:80/pofile/-/pofile-1.1.4.tgz}
+    resolution: {integrity: sha512-r6Q21sKsY1AjTVVjOuU02VYKVNQGJNQHjTIvs4dEbeuuYfxgYk/DGD2mqqq4RDaVkwdSq0VEtmQUOPe/wH8X3g==}
 
   /postcss-calc@8.2.4(postcss@8.4.24):
     resolution: {integrity: sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q==}
@@ -2891,7 +2894,7 @@ packages:
     dev: false
 
   /to-fast-properties@2.0.0:
-    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=, tarball: http://npm.stary.ltd:80/to-fast-properties/-/to-fast-properties-2.0.0.tgz}
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
     engines: {node: '>=4'}
 
   /to-regex-range@5.0.1:
@@ -3000,7 +3003,7 @@ packages:
       source-map: 0.6.1
 
   /webpack-sources@2.3.1:
-    resolution: {integrity: sha1-Vw3grxY5Sf4nIjPCzv4bVvdFEf0=, tarball: http://npm.stary.ltd:80/webpack-sources/-/webpack-sources-2.3.1.tgz}
+    resolution: {integrity: sha1-Vw3grxY5Sf4nIjPCzv4bVvdFEf0=}
     engines: {node: '>=10.13.0'}
     dependencies:
       source-list-map: 2.0.1
