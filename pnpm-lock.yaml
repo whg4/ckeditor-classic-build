@@ -71,8 +71,8 @@ dependencies:
     specifier: ^38.1.0
     version: 38.1.0
   '@ckeditor/stary-ckeditor5-paste-from-office':
-    specifier: 38.1.0
-    version: 38.1.0
+    specifier: 38.1.1
+    version: 38.1.1
 
 devDependencies:
   '@ckeditor/ckeditor5-core':
@@ -251,7 +251,7 @@ packages:
     dev: false
 
   /@ckeditor/ckeditor5-clipboard@38.1.0:
-    resolution: {integrity: sha512-OoxzP+GG9b80otVlGbJH6kTWM5AR5oJNGyj76KaxmhWfpyVifHM14iIFBjuEDzORsRZdb3+DA26+GcnkJ08/GA==}
+    resolution: {integrity: sha512-OoxzP+GG9b80otVlGbJH6kTWM5AR5oJNGyj76KaxmhWfpyVifHM14iIFBjuEDzORsRZdb3+DA26+GcnkJ08/GA==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-clipboard/-/ckeditor5-clipboard-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-core': 38.1.0
@@ -338,14 +338,14 @@ packages:
     dev: false
 
   /@ckeditor/ckeditor5-engine@38.1.0:
-    resolution: {integrity: sha512-Ldkw66gPMAL9GHnD+PsteWCay3ImPd+Lh/s54ISQxPDN8v4G3MNx9n003RA0ZtLKrbVhYXmAIF3xlzWWAkQK4w==}
+    resolution: {integrity: sha512-Ldkw66gPMAL9GHnD+PsteWCay3ImPd+Lh/s54ISQxPDN8v4G3MNx9n003RA0ZtLKrbVhYXmAIF3xlzWWAkQK4w==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-engine/-/ckeditor5-engine-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-utils': 38.1.0
       lodash-es: 4.17.21
 
   /@ckeditor/ckeditor5-enter@38.1.0:
-    resolution: {integrity: sha512-mBjr1Bk12ugPgScxnRncAxM5YcQUQosf01T5ekqT4/tAmoICyVgcJk4OU1H16TOzIRul0D4dr6eeg1yUhRHZPg==}
+    resolution: {integrity: sha512-mBjr1Bk12ugPgScxnRncAxM5YcQUQosf01T5ekqT4/tAmoICyVgcJk4OU1H16TOzIRul0D4dr6eeg1yUhRHZPg==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-enter/-/ckeditor5-enter-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-core': 38.1.0
@@ -426,7 +426,7 @@ packages:
     dev: false
 
   /@ckeditor/ckeditor5-select-all@38.1.0:
-    resolution: {integrity: sha512-04QCaVepM86iLSnQANMG6BAt0zW248So2vo5dOhSEvCoj6HlOtfxOSdwLykiLMYaKUucxhDtvboHEexshcQ34w==}
+    resolution: {integrity: sha512-04QCaVepM86iLSnQANMG6BAt0zW248So2vo5dOhSEvCoj6HlOtfxOSdwLykiLMYaKUucxhDtvboHEexshcQ34w==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-select-all/-/ckeditor5-select-all-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-core': 38.1.0
@@ -471,7 +471,7 @@ packages:
       vanilla-colorful: 0.7.2
 
   /@ckeditor/ckeditor5-undo@38.1.0:
-    resolution: {integrity: sha512-bm0WPJUqLihYVOsEWVXFLLM4hYh3vW4xcphUQNtkkkL4yXzvCYqtFr1vODgBsOiLfcmLhQzwSP/gWOxTzwtPqQ==}
+    resolution: {integrity: sha512-bm0WPJUqLihYVOsEWVXFLLM4hYh3vW4xcphUQNtkkkL4yXzvCYqtFr1vODgBsOiLfcmLhQzwSP/gWOxTzwtPqQ==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-undo/-/ckeditor5-undo-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-core': 38.1.0
@@ -480,7 +480,7 @@ packages:
     dev: false
 
   /@ckeditor/ckeditor5-upload@38.1.0:
-    resolution: {integrity: sha512-IaBXioCzhOik6qIAFZEm8eCv2yVUNpAZ9RVbbQbmVqm6W2u8dh6or1j33XEwMXtIVbakbmgEjuBTy3w+gxoDCQ==}
+    resolution: {integrity: sha512-IaBXioCzhOik6qIAFZEm8eCv2yVUNpAZ9RVbbQbmVqm6W2u8dh6or1j33XEwMXtIVbakbmgEjuBTy3w+gxoDCQ==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-upload/-/ckeditor5-upload-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-core': 38.1.0
@@ -495,14 +495,14 @@ packages:
       lodash-es: 4.17.21
 
   /@ckeditor/ckeditor5-watchdog@38.1.0:
-    resolution: {integrity: sha512-o6M8bTnvrxfcwmX05iuvH9fvOwfe7pvEpduXDI35gXDUqOYN14lQFkU48OM4C/QvRQyos8WNLq2d+yg0cwNnIQ==}
+    resolution: {integrity: sha512-o6M8bTnvrxfcwmX05iuvH9fvOwfe7pvEpduXDI35gXDUqOYN14lQFkU48OM4C/QvRQyos8WNLq2d+yg0cwNnIQ==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-watchdog/-/ckeditor5-watchdog-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       lodash-es: 4.17.21
     dev: false
 
   /@ckeditor/ckeditor5-widget@38.1.0:
-    resolution: {integrity: sha512-7j1lgMKLOGdjndRWyogHGTW0pDr+0q5YP0LyqGWciiuxN6SWYSLOaYACBVKnCWp6VtvmPM473ZXF2RKW7YOVQQ==}
+    resolution: {integrity: sha512-7j1lgMKLOGdjndRWyogHGTW0pDr+0q5YP0LyqGWciiuxN6SWYSLOaYACBVKnCWp6VtvmPM473ZXF2RKW7YOVQQ==, tarball: http://npm.stary.ltd:80/@ckeditor%2fckeditor5-widget/-/ckeditor5-widget-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-core': 38.1.0
@@ -514,8 +514,8 @@ packages:
       lodash-es: 4.17.21
     dev: false
 
-  /@ckeditor/stary-ckeditor5-paste-from-office@38.1.0:
-    resolution: {integrity: sha512-+BEMBNhJ1vTIRnLBeIlmgztsKowzsUvA87s9p5xmHO5Lozgz6UbcL2nz16GRMyn4sdVXwMxND5aourewsd0TOA==}
+  /@ckeditor/stary-ckeditor5-paste-from-office@38.1.1:
+    resolution: {integrity: sha512-1Qm/Jk9TRgVWI/ZdszkM1JO3lWmqLNDfU3d8yTQi7KaPa/Kk/7I163NSyuW9vRRRCGCB5U7fO1w8q0txsSWG5g==, tarball: http://npm.stary.ltd:80/@ckeditor%2fstary-ckeditor5-paste-from-office/-/stary-ckeditor5-paste-from-office-38.1.1.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       ckeditor5: 38.1.0
@@ -1147,7 +1147,7 @@ packages:
     engines: {node: '>=6.0'}
 
   /ckeditor5@38.1.0:
-    resolution: {integrity: sha512-rWkzD5d6qJkeC4IrVV56f3x2bd5USyYJ0Ida2nGReNLvQD4DhOsedfUe2cffhiSCDXW9nzyLAYtgDPl2V2zJaA==}
+    resolution: {integrity: sha512-rWkzD5d6qJkeC4IrVV56f3x2bd5USyYJ0Ida2nGReNLvQD4DhOsedfUe2cffhiSCDXW9nzyLAYtgDPl2V2zJaA==, tarball: http://npm.stary.ltd:80/ckeditor5/-/ckeditor5-38.1.0.tgz}
     engines: {node: '>=16.0.0', npm: '>=5.7.1'}
     dependencies:
       '@ckeditor/ckeditor5-clipboard': 38.1.0
